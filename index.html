@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON Introduction</title>
+
+  <script>
+
+    let a = {
+      name: "Ana",
+      note: 9.5
+    }
+
+    aString = JSON.stringify(a);
+    console.log(a)
+    console.log(aString);
+
+    let b = '{"name":"Ana", "age": 7.8}'
+
+    bObject = JSON.parse(b);
+    console.log(b);
+    console.log(bObject);
+
+
+
+
+  </script>
+</head>
+<body>
+
+
+</body>
+</html>
