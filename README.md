@@ -7,8 +7,8 @@ development method: Classroom
 
 topics:
 
--JSON 
--Object 
--String
--JSON.stringify
--JSON.parse
+1.JSON 
+2.Object 
+3.String
+4.JSON.stringify
+5.JSON.parse
