@@ -1,0 +1,21 @@
+Tema 01 : Pseudo Classe
+
+Passos:
+
+HTML:
+
+1) Faça dois inpusts
+2) Faça três listas de intem 1 a 10
+
+CSS:
+
+Input :
+1) Pinte as letras de vermelho do seletor em foco
+
+Listas:
+
+2) Primeira lista você deve pintar os elementos impares de uma cor e os elementos pares de outra.
+
+3) Na segunda lista você deve pintar somente os elementos multipos de 3.0
+
+4) Na terceira lista você deve pintar  o segundo elemento e penultimo de formas de vermelho.Também pintar o primeiro e ultimo elemento de amarelo.

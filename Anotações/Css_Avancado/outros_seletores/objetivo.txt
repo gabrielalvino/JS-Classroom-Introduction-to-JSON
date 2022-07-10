@@ -1,0 +1,13 @@
+Tarefa 01: Outros Seletores
+
+Objetivo: Etender com mais propriedades seletores.
+
+Passos:
+
+Com base no código,, você pode fazer seu próprio código.
+
+1)use asterisco e pinte de rosa. Depois apague, você percebeu que asterico seleciona todo a pagina.
+2) use  seletor >
+3) entenda o comportamento de +
+4) pegue um seletor pela altura que você definiu
+5) use query.selector e mostre o resultado no console.log

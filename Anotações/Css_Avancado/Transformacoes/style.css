@@ -1,0 +1,30 @@
+body {
+  background-color:bisque
+}
+
+h1 {
+  text-align:center;
+  padding-bottom: 20px;
+
+}
+
+img {
+  width: 240px;
+  height: 120px;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#img1 {
+  transform: rotate(15deg);
+
+}
+
+#img2 {
+  transform: scale(0.5);
+}
+
+#img3 {
+  transform: skew(20deg);
+}

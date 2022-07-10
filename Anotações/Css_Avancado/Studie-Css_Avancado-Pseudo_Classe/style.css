@@ -1,0 +1,55 @@
+
+input {
+  background-color: aqua;
+  display: block;
+}
+
+input:focus {
+  color:red
+}
+
+h2 {
+  text-align:center;
+}
+
+li{
+  list-style-type: none;
+  border: 1px solid black;
+}
+
+.lista1 > ul > li:nth-child(odd) {
+  background-color:red;
+}
+
+.lista1 > ul > li:nth-child(even) {
+  background-color: orchid;
+}
+
+.lista2 > ul > li:nth-child(3n) {
+  background-color:red;
+}
+
+
+
+.lista3 > ul > li:first-child {
+  background-color:red;
+}
+
+
+.lista3 > ul > li:last-child {
+  background-color:red;
+}
+
+
+.lista3 > ul > li:first-child {
+  background-color:red;
+}
+
+
+.lista3 > ul > li:nth-last-child(2){
+  background-color: yellow;
+}
+
+.lista3 > ul > li:nth-child(2){
+  background-color: yellow;
+}

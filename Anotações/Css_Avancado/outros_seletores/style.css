@@ -1,0 +1,18 @@
+h1 {
+  background-color: red;
+}
+
+.selector01 > p {
+  background-color: yellow
+}
+
+
+.selector02 > p, li {
+  background-color: blue;
+  list-style-type:none
+}
+
+
+.selector03 + h2  {
+  background-color: green;
+}
