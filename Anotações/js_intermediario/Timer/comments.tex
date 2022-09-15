@@ -1,0 +1,26 @@
+Função pra mudar color e título
+
+
+    function changeColor(){
+      let title = document.getElementById("timer");
+      title.style.color = "blue";
+    }
+
+    function changeH1(){
+      let title = document.getElementById("timer");
+      title.innerHTML = "Hello Word";
+
+      setTimeout(changeColor,1000)
+    }
+
+função para incrementar número depois do título.
+
+function changeText(){
+  let title = document.getElementById("timer");
+  title.innerHTML += " " + number;
+  number++;
+}
+
+function changeH1(){
+  setInterval(changeText,100);
+}

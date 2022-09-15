@@ -1,13 +1,13 @@
-Tarefa: CSS Transformação
+  Tarefa: CSS Transformação
 
-Objetivo da aula: usar transform, scale e skew em imagens.
+  Objetivo da aula: usar transform, scale e skew em imagens.
 
-Passos:
+  Passos:
 
-Htm
+  Htm
 
-1) insira três imagens diferenrtes
+  1) insira três imagens diferenrtes
 
-CSS
+  CSS
 
-2) use para cada uma diferentes as três propriedades transform, scale e skew e etenda seus funcionamentos.
+  2) use para cada uma diferentes as três propriedades transform, scale e skew e etenda seus funcionamentos.

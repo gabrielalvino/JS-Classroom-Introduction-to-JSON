@@ -1,0 +1,41 @@
+Tarefa 01
+
+- Crie uma pagina index com um texto qualquer a
+- crie uma segunda pagina
+- coloque o contéu do da sa segunda pagina na primeira
+
+  <div class="frame">
+    <iframe src="./page2.html" frameborder="none">
+    </iframe>
+  </div>
+
+
+  <style>
+
+    #frame {
+      border:none;
+      background-color:greenyellow;
+      width:95%;
+      height:200px;
+      border-radius: 20px;
+
+    }
+
+  </style>
+
+
+
+
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Page Index</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, natus. Assumenda vero odit aut nulla fuga repudiandae dicta ab culpa, provident modi atque accusantium, minima alias perferendis asperiores veritatis aspernatur?</p>
+
+  </div>
+
+  <div>
+    <iframe  id="frame" src="./page2.html" scrolling="no">
+    </iframe>

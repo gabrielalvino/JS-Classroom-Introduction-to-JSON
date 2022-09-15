@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer</title>
+  <script>
+
+    var number = 0;
+
+    var interval;
+
+    function updateText(){
+
+      let title = document.getElementById("timer");
+      title.innerHTML += " " + number;
+      number++;
+    }
+
+    function startTimer(){
+
+      var interval = setInterval(updateText,1000);
+    }
+
+    function stopTimer(){
+
+      clearInterval(interval);
+    }
+
+  </script>
+
+</head>
+<body>
+  <div class="container">
+    <h1 id="timer">Timer</h1>
+    <input id="submit" type="submit" value="start"  onclick="startTimer()" >
+    <input id="submit" type="submit" value="Stop"  onclick="stopTimer()" >
+
+  </div>
+
+</body>
+</html>

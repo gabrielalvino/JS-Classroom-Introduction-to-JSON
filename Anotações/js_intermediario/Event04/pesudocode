@@ -1,0 +1,59 @@
+# Fazer comparação entre execultar no JS e no html função; Entender que o JS é apressado
+
+OK
+
+
+# 1) Faça um título e nesse título prepara para execuntar a função em ao clicar
+
+OK
+
+
+# 2) No head cosntrua uma função simples para aprarecer qualquer número ao clicar no títul
+
+OK
+
+# 3) Clie a aGORA  a execução por meio de um função JS.
+
+  3.1 Constura uma nova função de forma simples para chamar qualquer número
+  3.1 Criar um variavel que contenha window.onload = é cpnreua uma nova função
+  3.2 Depois use window.on loa, getelemnet, addenvetlist, mas no útimo passo não seja apreçado, não passe direto a função passe só p parametro.
+
+# 4) Exeulte a funçao pelo head e pelo body
+
+# Codígo
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event04</title>
+
+  <script>
+
+    function f1(){
+
+      console.log("20");
+    }
+
+    function f2(){
+      console.log(15);
+    }
+
+    window.onload = function(){
+      var element = document.getElementsByTagName("h1")[0];
+      element.addEventListener("click",f2);
+    }
+
+  </script>
+
+
+
+</head>
+<body>
+
+  <h1 onclick="f1()">Click here</h1>
+
+</body>
+</html>

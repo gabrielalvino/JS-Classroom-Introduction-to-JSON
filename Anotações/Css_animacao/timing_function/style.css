@@ -1,0 +1,27 @@
+/* @keyframes changeColor {
+
+  0%{background-color: pink; width: 200px;}
+  30%{background-color: yellow; width: 220px;}
+  40%{background-color:green;  width: 300px;}
+  50%{background-color:red;  width: 320px;}
+
+} */
+
+
+@keyframes move {
+
+  0%{left: 0px;}
+  100%{left: 300px;}
+
+}
+.box{
+  position: relative;
+  height:200px;
+  width:200px;
+  border-style: solid;
+  border-color: red;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+
+}

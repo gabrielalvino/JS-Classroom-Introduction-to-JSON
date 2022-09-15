@@ -1,0 +1,15 @@
+1) Tarefa: Java Script Filter
+
+Essa é uma tarefa  importante, pois consolida alguns pontos fundamentais. Elaborei essa tarefa específica com muito carinho, pois é uma chance de entende alguns conceitos essenciais. Então, aconselho fazer com calma e explorando as possibilidades. Vamos nessa !!!
+
+
+2) Tema: Filtros no JS.
+
+3) Objetivo: Filtra resultados e entender o uso da função.
+
+Passos:
+
+Parte 01:
+2. Elabore uma função que retorne um objeto como nome e idade do aluno.
+3. Crie um aray com nome e idade dos alunos.
+3. Os alunos que tem idade menor que 30 deve retornar no console, use for of nesse caso.

@@ -1,0 +1,17 @@
+.card {
+  background: rgb(194, 150, 148);
+  margin-left: 40%;
+  margin-top: 140px;
+  text-align: center;
+  width: 200px;
+}
+
+body {
+  background-image: url(./bd-img.webp);
+
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+ }

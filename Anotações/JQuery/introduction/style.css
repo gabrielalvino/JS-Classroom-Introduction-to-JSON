@@ -1,0 +1,18 @@
+
+h1{
+  text-align: center;
+  color:rgba(18, 18, 112, 0.83)
+}
+
+
+
+li {
+  background-color: #008B8B ;
+  margin: 10px;
+  font-size: 22px;
+  list-style: none;
+  text-align: center;
+  border-radius: 30px;
+  color:white;
+
+}

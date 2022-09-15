@@ -1,0 +1,15 @@
+Assunto: CSS display FLex
+
+Objetivo: entender o uso do flex box,inversão de coluna e inversão de linha
+
+Passos:
+
+HTML
+
+1) Construa três containers diferentes
+2) Esses conteres seram compostos por três quadradros
+
+CSS
+
+1) Aplique as diferentes propriedades de formac complementar nos containers de
+2) Dé azas a sua critividade, mas fazendo colunas, linhas e invertendo a ordem.

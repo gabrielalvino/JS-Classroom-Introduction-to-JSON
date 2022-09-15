@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event04</title>
+
+  <script>
+
+    function f1(){
+
+      console.log("20");
+    }
+
+    function f2(){
+      console.log(15);
+    }
+
+    window.onload = function(){
+      var element = document.getElementsByTagName("h1")[0];
+      element.addEventListener("click",f2);
+    }
+
+  </script>
+
+
+
+</head>
+<body>
+
+  <h1 onclick="f1()">Click here</h1>
+
+</body>
+</html>

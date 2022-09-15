@@ -1,0 +1,22 @@
+# 1. Pimeiro testar de maneira simples no console.log a diferença entre mandar imprimir uma função e a diferença de execultar uma função
+OK
+
+
+# 2. Quando clicar no meu titulo html, aparecer no console log a função, e  na outra parte a aparece a exução. Não precisa aparecer os dois de uma vez, mas pode ser um de cada vez.
+
+
+# Code coment = serve o codigo para mostrar no console log a função
+
+  <script>
+
+    var element = function showElement(){
+      console.log(5);
+      return 10;
+    }
+
+    console.log(element());
+
+
+  </script>
+
+

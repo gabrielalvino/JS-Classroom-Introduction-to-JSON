@@ -1,0 +1,76 @@
+Tarefa 01: codigo elegante
+
+
+//  1. Faça um código mais elegante
+// 2. Faça um objeto que contenha a posição inicial, filnal; o tamanho do raio, onde começa e termina a circuferência
+// Lembre-se POSIÇÃO; RAIO; COMEÇO E FIM;
+
+// 3. Faça um função: começo caminho; montar circulo, tracejado e conteudo dentro
+
+// 4. Chame a função
+
+
+      let tela = document.getElementById("tela");
+
+      let ctx = tela.getContext("2d");
+
+      let circulo = {
+
+          x:110,
+          y: 110,
+          raio: 100,
+          inicio: 0  ,
+          fim: 2 * Math.PI,
+
+      };
+
+      function drawCircle(c) {
+
+
+        ctx.beginPath();
+        ctx.arc(c.x,c.y,c.raio,c.inicio,c.fim);
+        ctx.strokeStyle = "black";
+        ctx.fillStyle = "white";
+        ctx.fill();
+        ctx.stroke();
+
+      };
+
+      drawCircle(circulo);
+
+Tarefa 02: Desenhando circulo animado
+
+    let tela = document.getElementById("tela");
+
+    let ctx = tela.getContext("2d");
+
+    let circulo = {
+
+        x:250,
+        y: 250,
+        raio: 100,
+        inicio: 0  ,
+        fim: 0* Math.PI,
+
+    };
+
+    function drawCircle(c) {
+
+
+      ctx.beginPath();
+      ctx.arc(c.x,c.y,c.raio,c.inicio,c.fim);
+      ctx.strokeStyle = "black";
+      ctx.fillStyle = "blue";
+      ctx.fill();
+      ctx.stroke();
+
+    };
+
+    setInterval(function() {
+
+      if (circulo.fim < 2 * Math.PI) {
+        circulo.fim += 0.1;
+      }
+      drawCircle(circulo);
+
+    }, 100);
